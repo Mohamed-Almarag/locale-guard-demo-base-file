@@ -11,6 +11,12 @@
     "people_one": "{{count}} person in the room",
     "people_other": "{{count}} people in the room"
   },
+  "notes": {
+    "title": "Notes",
+    "count_one": "{{count}} note",
+    "count_other": "{{count}} notes",
+    "add": "Add a note"
+  },
   "toolbar": {
     "mute": "Mute",
     "unmute": "Unmute",

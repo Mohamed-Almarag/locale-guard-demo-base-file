@@ -15,6 +15,16 @@
     "people_many": "{{count}} شخصًا في الغرفة",
     "people_other": "{{count}} شخص في الغرفة"
   },
+  "notes": {
+    "title": "الملاحظات",
+    "count_zero": "لا توجد ملاحظات",
+    "count_one": "ملاحظة واحدة",
+    "count_two": "ملاحظتان",
+    "count_few": "{{count}} ملاحظات",
+    "count_many": "{{count}} ملاحظة",
+    "count_other": "{{count}} ملاحظة",
+    "add": "أضف ملاحظة"
+  },
   "toolbar": {
     "mute": "كتم الصوت",
     "unmute": "إلغاء الكتم",
