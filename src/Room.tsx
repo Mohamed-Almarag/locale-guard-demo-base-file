@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Notes } from './Notes'
 
 export function Room() {
   const { t } = useTranslation()
@@ -36,6 +37,7 @@ export function Room() {
           {t('toolbar.leave')}
         </button>
       </div>
+      <Notes />
     </section>
   )
 }

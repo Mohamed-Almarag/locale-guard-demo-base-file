@@ -11,6 +11,12 @@
     "people_one": "{{count}} Person im Raum",
     "people_other": "{{count}} Personen im Raum"
   },
+  "notes": {
+    "title": "Notizen",
+    "count_one": "{{count}} Notiz",
+    "count_other": "{{count}} Notizen",
+    "add": "Notiz hinzufügen"
+  },
   "toolbar": {
     "mute": "Stummschalten",
     "unmute": "Stummschaltung aufheben",
