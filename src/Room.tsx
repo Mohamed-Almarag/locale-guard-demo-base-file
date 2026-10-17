@@ -27,7 +27,7 @@ export function Room() {
     <section>
       <h2>{t('room.welcome', { name })}</h2>
       <p>{t('room.people', { count: people })}</p>
-      <div role="toolbar">
+      <div role="toolbar" style={{ display: 'flex', gap: '0.75rem' }}>
         <button type="button" onClick={() => setMuted(!muted)}>
           {muted ? t('toolbar.unmute') : t('toolbar.mute')}
         </button>
