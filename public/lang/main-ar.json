@@ -4,7 +4,8 @@
   "lobby": {
     "title": "انضم إلى اجتماع",
     "nameLabel": "اسمك",
-    "join": "انضمام"
+    "join": "انضمام",
+    "joinNow": "انضم الآن"
   },
   "room": {
     "welcome": "أهلًا، {{name}}",
@@ -14,6 +15,11 @@
     "people_few": "{{count}} أشخاص في الغرفة",
     "people_many": "{{count}} شخصًا في الغرفة",
     "people_other": "{{count}} شخص في الغرفة"
+  },
+  "waitingRoom": {
+    "title": "غرفة الانتظار",
+    "message": "سيسمح لك {{المضيف}} بالدخول قريبًا",
+    "leave": "مغادرة غرفة الانتظار"
   },
   "toolbar": {
     "mute": "كتم الصوت",

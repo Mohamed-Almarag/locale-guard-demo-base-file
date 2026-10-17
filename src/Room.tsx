@@ -5,8 +5,24 @@ export function Room() {
   const { t } = useTranslation()
   const [name, setName] = useState('')
   const [joined, setJoined] = useState(false)
+  const [waiting, setWaiting] = useState(false)
   const [muted, setMuted] = useState(false)
   const people = 3
+
+  if (waiting && !joined) {
+    return (
+      <section>
+        <h2>{t('waitingRoom.title')}</h2>
+        <p>{t('waitingRoom.message', { host: 'Dana' })}</p>
+        <button type="button" onClick={() => setJoined(true)}>
+          {t('lobby.join')}
+        </button>
+        <button type="button" onClick={() => setWaiting(false)}>
+          {t('waitingRoom.leave')}
+        </button>
+      </section>
+    )
+  }
 
   if (!joined) {
     return (
@@ -16,7 +32,7 @@ export function Room() {
           {t('lobby.nameLabel')}
           <input value={name} onChange={(event) => setName(event.target.value)} />
         </label>
-        <button type="button" disabled={!name} onClick={() => setJoined(true)}>
+        <button type="button" disabled={!name} onClick={() => setWaiting(true)}>
           {t('lobby.join')}
         </button>
       </section>
@@ -32,7 +48,7 @@ export function Room() {
           {muted ? t('toolbar.unmute') : t('toolbar.mute')}
         </button>
         <button type="button">{t('toolbar.camera')}</button>
-        <button type="button" onClick={() => setJoined(false)}>
+        <button type="button" onClick={() => { setJoined(false); setWaiting(false) }}>
           {t('toolbar.leave')}
         </button>
       </div>
