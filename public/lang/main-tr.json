@@ -11,6 +11,12 @@
     "people_one": "Odada {{count}} kişi var",
     "people_other": "Odada {{count}} kişi var"
   },
+  "notes": {
+    "title": "Notlar",
+    "count_one": "{{count}} not",
+    "count_other": "{{count}} not",
+    "add": "Not ekle"
+  },
   "toolbar": {
     "mute": "Sesi kapat",
     "unmute": "Sesi aç",
