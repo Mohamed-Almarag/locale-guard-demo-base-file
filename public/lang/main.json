@@ -1,0 +1,20 @@
+{
+  "appName": "Rooms",
+  "language": "Language",
+  "lobby": {
+    "title": "Join a meeting",
+    "nameLabel": "Your name",
+    "join": "Join"
+  },
+  "room": {
+    "welcome": "Welcome, {{name}}",
+    "people_one": "{{count}} person in the room",
+    "people_other": "{{count}} people in the room"
+  },
+  "toolbar": {
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "camera": "Camera",
+    "leave": "Leave"
+  }
+}

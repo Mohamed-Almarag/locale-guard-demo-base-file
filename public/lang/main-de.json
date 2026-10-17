@@ -1,0 +1,19 @@
+{
+  "appName": "Räume",
+  "language": "Sprache",
+  "lobby": {
+    "title": "An einem Meeting teilnehmen",
+    "nameLabel": "Dein Name",
+    "join": "Beitreten"
+  },
+  "room": {
+    "welcome": "Willkommen, {{name}}",
+    "people_one": "{{count}} Person im Raum",
+    "people_other": "{{count}} Personen im Raum"
+  },
+  "toolbar": {
+    "mute": "Stummschalten",
+    "unmute": "Stummschaltung aufheben",
+    "leave": "Verlassen"
+  }
+}

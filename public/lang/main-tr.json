@@ -1,0 +1,20 @@
+{
+  "appName": "Odalar",
+  "language": "Dil",
+  "lobby": {
+    "title": "Bir toplantıya katıl",
+    "nameLabel": "Adın",
+    "join": "Katıl"
+  },
+  "room": {
+    "welcome": "Hoş geldin, {{name}}",
+    "people_one": "Odada {{count}} kişi var",
+    "people_other": "Odada {{count}} kişi var"
+  },
+  "toolbar": {
+    "mute": "Sesi kapat",
+    "unmute": "Sesi aç",
+    "camera": "Kamera",
+    "leave": ""
+  }
+}

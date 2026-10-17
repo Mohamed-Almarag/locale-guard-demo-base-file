@@ -1,0 +1,24 @@
+{
+  "appName": "الغرف",
+  "language": "اللغة",
+  "lobby": {
+    "title": "انضم إلى اجتماع",
+    "nameLabel": "اسمك",
+    "join": "انضمام"
+  },
+  "room": {
+    "welcome": "أهلًا، {{name}}",
+    "people_zero": "لا أحد في الغرفة",
+    "people_one": "شخص واحد في الغرفة",
+    "people_two": "شخصان في الغرفة",
+    "people_few": "{{count}} أشخاص في الغرفة",
+    "people_many": "{{count}} شخصًا في الغرفة",
+    "people_other": "{{count}} شخص في الغرفة"
+  },
+  "toolbar": {
+    "mute": "كتم الصوت",
+    "unmute": "إلغاء الكتم",
+    "camera": "الكاميرا",
+    "leave": "مغادرة"
+  }
+}
