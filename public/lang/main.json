@@ -11,6 +11,11 @@
     "people_one": "{{count}} person in the room",
     "people_other": "{{count}} people in the room"
   },
+  "waitingRoom": {
+    "title": "Waiting room",
+    "message": "{{host}} will let you in soon",
+    "leave": "Leave the waiting room"
+  },
   "toolbar": {
     "mute": "Mute",
     "unmute": "Unmute",
